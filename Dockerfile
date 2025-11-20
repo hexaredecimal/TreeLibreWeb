@@ -18,6 +18,7 @@ RUN cd / && pacman -Syu --noconfirm \
      ttf-dejavu \
      libx11 \
      libxft \
+     xorg \
      xorgproto \
      && pacman -Scc --noconfirm
 
