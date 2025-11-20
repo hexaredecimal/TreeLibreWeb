@@ -1,7 +1,7 @@
 #!/bin/env sh
 
 export HOME=`dirname $0`
-export OPTS="-h localhost -j ./jetty.properties -c ./webswing.config -pfa ./admin/webswing-admin.properties -adminctx /admin"
+export OPTS="-h 0.0.0.0 -j ./jetty.properties -c ./webswing.config -pfa ./admin/webswing-admin.properties -adminctx /admin"
 export JAVA_OPTS=-Xmx2g
 export PID_PATH_NAME=$HOME/webswing.pid
 
