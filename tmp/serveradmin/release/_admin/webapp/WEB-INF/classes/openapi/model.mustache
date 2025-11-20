@@ -1,0 +1,15 @@
+package {{package}};
+
+{{#imports}}import {{import}};
+{{/imports}}
+{{#serializableModel}}
+import java.io.Serializable;
+{{/serializableModel}}
+
+import java.util.*;
+
+{{#models}}
+{{#model}}
+{{>pojo}}
+{{/model}}
+{{/models}}

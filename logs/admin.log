@@ -1,0 +1,530 @@
+2025-11-18 00:15:04,051 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 00:15:04,067 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 00:15:04,068 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 00:15:04,069 INFO  [main] (DefaultInitializer.java:85) File /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config or /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config not found.
+2025-11-18 00:15:04,070 INFO  [main] (AdminInitializer.java:41) Auto-scaling config file not found. Ignoring. Make sure to provide auto-scaling config file if you want to use auto-scaling service in Webswing Cluster.
+2025-11-18 00:15:04,070 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 00:15:04,193 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 00:15:04,227 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 00:15:04,253 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 00:15:04,258 WARN  [main] (AutoScalingConfigurationProvider.java:206) Configuration file for auto-scaling does not exist, creating empty configuration in [/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config]!
+2025-11-18 00:15:04,334 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 00:15:04,403 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 00:15:04,424 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 00:15:10,255 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 00:15:15,148 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:161) Installing application /webswing-demo
+2025-11-18 00:15:15,449 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:161) Installing application /webswing-demo-applet
+2025-11-18 00:15:15,449 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:161) Installing application /modernisation
+2025-11-18 00:15:15,449 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:161) Installing application /netbeans
+2025-11-18 00:15:15,449 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:161) Installing application /rcpmin
+2025-11-18 00:16:09,197 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 00:22:39,298 INFO  [ tyrus-jdk-client-12] (AdminGlobalUrlHandler.java:180) Removing application /treelibre
+2025-11-18 00:24:27,773 INFO  [ tyrus-jdk-client-14] (AdminGlobalUrlHandler.java:161) Installing application /webswing
+2025-11-18 00:24:34,816 INFO  [ tyrus-jdk-client-16] (AdminGlobalUrlHandler.java:180) Removing application /webswing
+2025-11-18 00:24:44,833 INFO  [ tyrus-jdk-client-16] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 00:26:33,844 WARN  [Thread-496] (AdminWebSocketServiceImpl.java:2361) Timeout expired while refreshing instance data!
+java.util.concurrent.TimeoutException: Call timed out after 3000 ms. Call id be562532-c5b3-4aa5-a3df-20b6cb3a6fbf
+	at org.webswing.admin.server.services.websocket.impl.AdminWebSocketServiceImpl.sendMessageSync(AdminWebSocketServiceImpl.java:2113) ~[classes/:?]
+	at org.webswing.admin.server.services.websocket.impl.AdminWebSocketServiceImpl.access$1700(AdminWebSocketServiceImpl.java:169) ~[classes/:?]
+	at org.webswing.admin.server.services.websocket.impl.AdminWebSocketServiceImpl$ClusterServerCache.lambda$refreshInstanceCountsSync$0(AdminWebSocketServiceImpl.java:2358) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+2025-11-18 00:26:36,602 WARN  [ tyrus-jdk-client-17] (AdminWebSocketServiceImpl.java:564) No thread waiting for sync-ed message with id be562532-c5b3-4aa5-a3df-20b6cb3a6fbf
+2025-11-18 00:29:20,529 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 00:29:20,531 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 00:29:20,772 ERROR [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:152) Failed to destroy websocket connection to server [ws://localhost:8080]!
+2025-11-18 00:29:23,847 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 00:30:35,567 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 00:30:35,583 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 00:30:35,584 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 00:30:35,584 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config
+2025-11-18 00:30:35,585 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 00:30:35,642 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 00:30:35,671 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 00:30:35,690 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 00:30:35,778 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 00:30:35,826 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 00:30:35,839 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 00:30:40,972 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 00:30:42,853 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /webswing-demo
+2025-11-18 00:30:43,048 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /webswing-demo-applet
+2025-11-18 00:30:43,049 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /modernisation
+2025-11-18 00:30:43,050 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /netbeans
+2025-11-18 00:30:43,050 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /rcpmin
+2025-11-18 00:30:43,050 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 00:36:04,175 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 00:36:04,210 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 00:36:04,232 ERROR [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:152) Failed to destroy websocket connection to server [ws://localhost:8080]!
+2025-11-18 00:36:07,265 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 00:41:54,856 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 00:41:54,896 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 00:41:54,897 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 00:41:54,898 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config
+2025-11-18 00:41:54,898 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 00:41:55,030 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 00:41:55,116 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 00:41:55,162 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 00:41:55,286 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 00:41:55,413 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 00:41:55,429 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 00:42:01,997 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 00:42:04,475 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /webswing-demo
+2025-11-18 00:42:04,679 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /webswing-demo-applet
+2025-11-18 00:42:04,683 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /modernisation
+2025-11-18 00:42:04,684 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /netbeans
+2025-11-18 00:42:04,684 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /rcpmin
+2025-11-18 00:42:04,685 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 00:55:20,844 ERROR [qtp1911728085-81] (RestUrlHandlerImpl.java:326) Rest exception: org.webswing.exception.WsException: User 'anonym' is not allowed to execute action 'rest_getConfig'
+org.webswing.server.common.service.rest.RestException: org.webswing.exception.WsException: User 'anonym' is not allowed to execute action 'rest_getConfig'
+	at org.webswing.admin.server.services.rest.resources.GlobalRestService.getMeta(GlobalRestService.java:522) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:124) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:167) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:219) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:79) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:475) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:397) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:255) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:234) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:680) ~[jersey-server-2.34.jar:?]
+	at org.webswing.server.common.service.rest.impl.RestUrlHandlerImpl.serve(RestUrlHandlerImpl.java:113) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.server.common.handler.AbstractUrlHandler.serve(AbstractUrlHandler.java:74) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.base.AdminPrimaryUrlHandler.serve(AdminPrimaryUrlHandler.java:45) ~[classes/:?]
+	at org.webswing.admin.server.AdminGlobalUrlHandler.serve(AdminGlobalUrlHandler.java:101) ~[classes/:?]
+	at org.webswing.server.common.handler.AbstractUrlHandler.secureServe(AbstractUrlHandler.java:88) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.services.security.impl.AdminSecurityManagerServiceImpl.lambda$secure$0(AdminSecurityManagerServiceImpl.java:30) ~[classes/:?]
+	at org.webswing.server.common.service.security.impl.AdminSecuritySubject.execute(AdminSecuritySubject.java:109) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.services.security.impl.AdminSecurityManagerServiceImpl.secure(AdminSecurityManagerServiceImpl.java:30) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.handleRequest(AdminServlet.java:146) ~[classes/:?]
+	at org.webswing.tools.servlet.JakartaServlet.handleRequest(JakartaServlet.java:31) ~[webswing-tools-servlet-25.2.1.jar:?]
+	at org.webswing.tools.servlet.JakartaServlet.doPost(JakartaServlet.java:66) ~[webswing-tools-servlet-25.2.1.jar:?]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547) ~[webswing-jetty-launcher.jar:?]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:736) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1622) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:195) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1594) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1555) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:823) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:440) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:470) ~[?:?]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:575) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:717) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1071) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:181) ~[?:?]
+	at org.eclipse.jetty.server.Server.handle(Server.java:182) ~[?:?]
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:678) ~[?:?]
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:416) ~[?:?]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322) ~[?:?]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99) ~[?:?]
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53) ~[?:?]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:981) ~[?:?]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1211) ~[?:?]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1166) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.webswing.exception.WsException: User 'anonym' is not allowed to execute action 'rest_getConfig'
+	at org.webswing.server.common.handler.AbstractUrlHandler.checkPermission(AbstractUrlHandler.java:277) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.server.common.handler.AbstractUrlHandler.checkPermission(AbstractUrlHandler.java:268) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.services.rest.resources.GlobalRestService.getMeta(GlobalRestService.java:519) ~[classes/:?]
+	... 55 more
+2025-11-18 00:55:24,037 ERROR [qtp1911728085-165] (RestUrlHandlerImpl.java:326) Rest exception: org.webswing.exception.WsException: User 'anonym' is not allowed to execute action 'rest_setConfig'
+org.webswing.server.common.service.rest.RestException: org.webswing.exception.WsException: User 'anonym' is not allowed to execute action 'rest_setConfig'
+	at org.webswing.admin.server.services.rest.resources.GlobalRestService.saveConfig(GlobalRestService.java:512) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:124) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:167) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:219) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:79) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:475) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:397) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:255) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:234) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:680) ~[jersey-server-2.34.jar:?]
+	at org.webswing.server.common.service.rest.impl.RestUrlHandlerImpl.serve(RestUrlHandlerImpl.java:113) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.server.common.handler.AbstractUrlHandler.serve(AbstractUrlHandler.java:74) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.base.AdminPrimaryUrlHandler.serve(AdminPrimaryUrlHandler.java:45) ~[classes/:?]
+	at org.webswing.admin.server.AdminGlobalUrlHandler.serve(AdminGlobalUrlHandler.java:101) ~[classes/:?]
+	at org.webswing.server.common.handler.AbstractUrlHandler.secureServe(AbstractUrlHandler.java:88) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.services.security.impl.AdminSecurityManagerServiceImpl.lambda$secure$0(AdminSecurityManagerServiceImpl.java:30) ~[classes/:?]
+	at org.webswing.server.common.service.security.impl.AdminSecuritySubject.execute(AdminSecuritySubject.java:109) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.services.security.impl.AdminSecurityManagerServiceImpl.secure(AdminSecurityManagerServiceImpl.java:30) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.handleRequest(AdminServlet.java:146) ~[classes/:?]
+	at org.webswing.tools.servlet.JakartaServlet.handleRequest(JakartaServlet.java:31) ~[webswing-tools-servlet-25.2.1.jar:?]
+	at org.webswing.tools.servlet.JakartaServlet.doPost(JakartaServlet.java:66) ~[webswing-tools-servlet-25.2.1.jar:?]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547) ~[webswing-jetty-launcher.jar:?]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:736) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1622) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:195) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1594) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1555) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:823) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:440) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:470) ~[?:?]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:575) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:717) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1071) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:181) ~[?:?]
+	at org.eclipse.jetty.server.Server.handle(Server.java:182) ~[?:?]
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:678) ~[?:?]
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:416) ~[?:?]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322) ~[?:?]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99) ~[?:?]
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53) ~[?:?]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:480) ~[?:?]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:443) ~[?:?]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293) ~[?:?]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201) ~[?:?]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311) ~[?:?]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:981) ~[?:?]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1211) ~[?:?]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1166) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.webswing.exception.WsException: User 'anonym' is not allowed to execute action 'rest_setConfig'
+	at org.webswing.server.common.handler.AbstractUrlHandler.checkPermission(AbstractUrlHandler.java:277) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.server.common.handler.AbstractUrlHandler.checkPermission(AbstractUrlHandler.java:268) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.services.rest.resources.GlobalRestService.saveConfig(GlobalRestService.java:509) ~[classes/:?]
+	... 60 more
+2025-11-18 00:55:27,222 ERROR [qtp1911728085-187] (RestUrlHandlerImpl.java:326) Rest exception: org.webswing.exception.WsException: User 'anonym' is not allowed to execute action 'rest_getConfig'
+org.webswing.server.common.service.rest.RestException: org.webswing.exception.WsException: User 'anonym' is not allowed to execute action 'rest_getConfig'
+	at org.webswing.admin.server.services.rest.resources.GlobalRestService.getConfig(GlobalRestService.java:502) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:124) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:167) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:219) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:79) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:475) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:397) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:255) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265) ~[jersey-common-2.34.jar:?]
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:234) ~[jersey-server-2.34.jar:?]
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:680) ~[jersey-server-2.34.jar:?]
+	at org.webswing.server.common.service.rest.impl.RestUrlHandlerImpl.serve(RestUrlHandlerImpl.java:113) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.server.common.handler.AbstractUrlHandler.serve(AbstractUrlHandler.java:74) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.base.AdminPrimaryUrlHandler.serve(AdminPrimaryUrlHandler.java:45) ~[classes/:?]
+	at org.webswing.admin.server.AdminGlobalUrlHandler.serve(AdminGlobalUrlHandler.java:101) ~[classes/:?]
+	at org.webswing.server.common.handler.AbstractUrlHandler.secureServe(AbstractUrlHandler.java:88) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.services.security.impl.AdminSecurityManagerServiceImpl.lambda$secure$0(AdminSecurityManagerServiceImpl.java:30) ~[classes/:?]
+	at org.webswing.server.common.service.security.impl.AdminSecuritySubject.execute(AdminSecuritySubject.java:109) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.services.security.impl.AdminSecurityManagerServiceImpl.secure(AdminSecurityManagerServiceImpl.java:30) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.handleRequest(AdminServlet.java:146) ~[classes/:?]
+	at org.webswing.tools.servlet.JakartaServlet.handleRequest(JakartaServlet.java:31) ~[webswing-tools-servlet-25.2.1.jar:?]
+	at org.webswing.tools.servlet.JakartaServlet.doGet(JakartaServlet.java:61) ~[webswing-tools-servlet-25.2.1.jar:?]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527) ~[webswing-jetty-launcher.jar:?]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHolder.handle(ServletHolder.java:736) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1622) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.websocket.servlet.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:195) ~[webswing-jetty-launcher.jar:?]
+	at org.eclipse.jetty.ee10.servlet.FilterHolder.doFilter(FilterHolder.java:205) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1594) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler$MappedServlet.handle(ServletHandler.java:1555) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.dispatch(ServletChannel.java:823) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletChannel.handle(ServletChannel.java:440) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.ServletHandler.handle(ServletHandler.java:470) ~[?:?]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:575) ~[?:?]
+	at org.eclipse.jetty.ee10.servlet.SessionHandler.handle(SessionHandler.java:717) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1071) ~[?:?]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:181) ~[?:?]
+	at org.eclipse.jetty.server.Server.handle(Server.java:182) ~[?:?]
+	at org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:678) ~[?:?]
+	at org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:416) ~[?:?]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322) ~[?:?]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99) ~[?:?]
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53) ~[?:?]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:480) ~[?:?]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:443) ~[?:?]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293) ~[?:?]
+	at org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201) ~[?:?]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311) ~[?:?]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:981) ~[?:?]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1211) ~[?:?]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1166) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.webswing.exception.WsException: User 'anonym' is not allowed to execute action 'rest_getConfig'
+	at org.webswing.server.common.handler.AbstractUrlHandler.checkPermission(AbstractUrlHandler.java:277) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.server.common.handler.AbstractUrlHandler.checkPermission(AbstractUrlHandler.java:268) ~[webswing-server-common-25.2.1.jar:?]
+	at org.webswing.admin.server.services.rest.resources.GlobalRestService.getConfig(GlobalRestService.java:499) ~[classes/:?]
+	... 60 more
+2025-11-18 00:58:00,828 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:180) Removing application /webswing-demo
+2025-11-18 00:58:00,836 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:180) Removing application /netbeans
+2025-11-18 00:58:00,836 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:180) Removing application /webswing-demo-applet
+2025-11-18 00:58:00,837 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:180) Removing application /rcpmin
+2025-11-18 00:58:00,837 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:180) Removing application /modernisation
+2025-11-18 01:02:34,522 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 01:02:34,548 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 01:02:34,646 ERROR [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:152) Failed to destroy websocket connection to server [ws://localhost:8080]!
+2025-11-18 01:02:37,702 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 01:03:07,543 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:03:07,573 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 01:03:07,575 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 01:03:07,576 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config
+2025-11-18 01:03:07,577 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 01:03:07,645 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:03:07,675 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:03:07,691 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:03:07,753 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:03:07,815 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:03:07,876 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 01:03:13,956 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 01:03:15,485 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 01:04:03,555 ERROR [ tyrus-jdk-client-2] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://localhost:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 01:04:03,608 INFO  [ tyrus-jdk-client-2] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [e65c7169-b8ff-4808-9ec7-0d8d1cd774a2], url [ws://localhost:8080]. Reconnect in 5000ms.
+2025-11-18 01:04:03,592 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 01:04:03,610 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 01:04:03,616 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 01:04:18,417 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:04:18,440 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 01:04:18,442 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 01:04:18,443 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config
+2025-11-18 01:04:18,445 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 01:04:18,509 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:04:18,536 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:04:18,555 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:04:18,616 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:04:18,664 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:04:18,685 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 01:04:21,342 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 01:04:23,219 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 01:04:54,881 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:180) Removing application /treelibre
+2025-11-18 01:05:00,555 ERROR [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://localhost:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 01:05:00,555 INFO  [ tyrus-jdk-client-1] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [c8f27eb9-6f0c-47e7-bafc-a4432807d839], url [ws://localhost:8080]. Reconnect in 5000ms.
+2025-11-18 01:05:00,565 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 01:05:00,566 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 01:05:00,569 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 01:05:20,343 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:05:20,398 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 01:05:20,400 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 01:05:20,402 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config
+2025-11-18 01:05:20,403 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 01:05:20,468 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:05:20,493 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:05:20,506 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:05:20,562 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:05:20,624 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:05:20,759 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 01:05:24,163 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 01:06:53,576 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 01:06:53,579 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 01:06:53,820 ERROR [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:152) Failed to destroy websocket connection to server [ws://localhost:8080]!
+2025-11-18 01:06:56,828 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 01:07:14,350 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:07:14,372 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 01:07:14,381 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 01:07:14,384 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config
+2025-11-18 01:07:14,387 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 01:07:14,454 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:07:14,482 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:07:14,501 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:07:14,566 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:07:14,628 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:07:14,643 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 01:07:16,829 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 01:07:28,153 ERROR [ tyrus-jdk-client-2] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://localhost:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 01:07:28,159 INFO  [ tyrus-jdk-client-2] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [238d9dd1-e220-4fee-9a8a-f5de716e0fab], url [ws://localhost:8080]. Reconnect in 5000ms.
+2025-11-18 01:07:28,156 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 01:07:28,162 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 01:07:28,168 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 01:07:50,017 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:07:50,134 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 01:07:50,135 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 01:07:50,137 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config
+2025-11-18 01:07:50,137 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 01:07:50,229 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:07:50,259 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:07:50,274 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:07:50,334 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:07:50,406 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:07:50,420 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 01:07:52,488 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 01:08:32,195 INFO  [ tyrus-jdk-client-1] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 01:08:43,558 ERROR [ tyrus-jdk-client-2] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://localhost:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 01:08:43,559 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:180) Removing application /treelibre
+2025-11-18 01:08:43,561 INFO  [ tyrus-jdk-client-2] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [969adb5c-e881-4fc6-ad1c-20417912411f], url [ws://localhost:8080]. Reconnect in 5000ms.
+2025-11-18 01:08:43,585 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 01:08:43,589 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 01:08:43,593 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 01:09:01,666 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:09:01,684 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 01:09:01,685 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 01:09:01,686 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config
+2025-11-18 01:09:01,687 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 01:09:01,754 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:09:01,784 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:09:01,801 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:09:01,870 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:09:01,940 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:09:01,953 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 01:09:04,135 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 01:09:06,817 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 01:10:09,345 ERROR [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://localhost:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 01:10:09,389 INFO  [ tyrus-jdk-client-1] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [497b9f8d-3e8a-4a45-8419-1f7e68dbe91a], url [ws://localhost:8080]. Reconnect in 5000ms.
+2025-11-18 01:10:09,350 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 01:10:09,391 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 01:10:09,397 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 01:10:39,314 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:10:39,331 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/tmp/serveradmin/release
+2025-11-18 01:10:39,332 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing
+2025-11-18 01:10:39,333 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/webswing-autoscaling.config
+2025-11-18 01:10:39,334 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeStudio/web/webswing/./admin/webswing-admin.properties
+2025-11-18 01:10:39,382 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:10:39,411 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:10:39,430 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:10:39,495 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:10:39,565 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:10:39,577 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 01:10:41,850 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 01:10:43,624 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 01:18:43,316 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 01:18:43,326 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 01:18:43,416 ERROR [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:152) Failed to destroy websocket connection to server [ws://localhost:8080]!
+2025-11-18 01:18:46,492 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 01:22:21,808 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:22:21,838 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb/tmp/serveradmin/release
+2025-11-18 01:22:21,844 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb
+2025-11-18 01:22:21,846 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/webswing-autoscaling.config
+2025-11-18 01:22:21,846 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/./admin/webswing-admin.properties
+2025-11-18 01:22:21,906 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:22:21,933 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:22:21,948 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:22:22,020 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:22:22,083 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:22:22,122 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 01:22:25,058 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 01:22:27,207 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 01:50:14,220 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 01:50:14,224 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 01:50:14,248 ERROR [ tyrus-jdk-client-20] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://localhost:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 01:50:14,250 INFO  [ tyrus-jdk-client-20] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [6814d8eb-972f-4114-b78e-51a8fa29a08a], url [ws://localhost:8080]. Reconnect in 5000ms.
+2025-11-18 01:50:14,251 ERROR [ tyrus-jdk-client-20] (AdminWebSocketServiceImpl.java:438) Can not restart websocket connection to server:Timer already cancelled.
+2025-11-18 01:50:14,253 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 01:50:26,273 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:50:26,287 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb/tmp/serveradmin/release
+2025-11-18 01:50:26,288 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb
+2025-11-18 01:50:26,289 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/webswing-autoscaling.config
+2025-11-18 01:50:26,289 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/./admin/webswing-admin.properties
+2025-11-18 01:50:26,338 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:50:26,370 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:50:26,388 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:50:26,453 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:50:26,508 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:50:26,520 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 01:50:28,239 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 01:58:41,052 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 01:58:41,069 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb/tmp/serveradmin/release
+2025-11-18 01:58:41,070 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb
+2025-11-18 01:58:41,071 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/webswing-autoscaling.config
+2025-11-18 01:58:41,072 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/./admin/webswing-admin.properties
+2025-11-18 01:58:41,135 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 01:58:41,168 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 01:58:41,190 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 01:58:41,254 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 01:58:41,334 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 01:58:41,347 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://0.0.0.0:8080].
+2025-11-18 01:58:43,977 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://0.0.0.0:8080]!
+2025-11-18 01:58:46,631 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 02:00:04,685 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 02:00:04,720 ERROR [ tyrus-jdk-client-4] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://0.0.0.0:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 02:00:05,123 INFO  [ tyrus-jdk-client-4] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [1884d110-9ba4-4bf3-9837-c295b5f13157], url [ws://0.0.0.0:8080]. Reconnect in 5000ms.
+2025-11-18 02:00:05,123 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://0.0.0.0:8080].
+2025-11-18 02:00:05,123 ERROR [ tyrus-jdk-client-4] (AdminWebSocketServiceImpl.java:438) Can not restart websocket connection to server:Timer already cancelled.
+2025-11-18 02:00:05,156 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 14:33:39,830 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 14:33:39,852 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb/tmp/serveradmin/release
+2025-11-18 14:33:39,853 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb
+2025-11-18 14:33:39,853 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/webswing-autoscaling.config
+2025-11-18 14:33:39,853 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/./admin/webswing-admin.properties
+2025-11-18 14:33:39,939 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 14:33:39,968 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 14:33:39,986 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 14:33:40,076 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 14:33:40,181 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 14:33:40,227 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://0.0.0.0:8080].
+2025-11-18 14:33:43,557 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://0.0.0.0:8080]!
+2025-11-18 14:33:45,904 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 14:39:46,291 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 14:39:46,309 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://0.0.0.0:8080].
+2025-11-18 14:39:46,543 ERROR [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:152) Failed to destroy websocket connection to server [ws://0.0.0.0:8080]!
+2025-11-18 14:39:49,566 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 14:46:59,182 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 14:46:59,204 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb/tmp/serveradmin/release
+2025-11-18 14:46:59,205 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb
+2025-11-18 14:46:59,205 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/webswing-autoscaling.config
+2025-11-18 14:46:59,206 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/./admin/webswing-admin.properties
+2025-11-18 14:46:59,259 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 14:46:59,292 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 14:46:59,312 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 14:46:59,401 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 14:46:59,457 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 14:46:59,483 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://0.0.0.0:8080].
+2025-11-18 14:47:01,722 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://0.0.0.0:8080]!
+2025-11-18 14:47:02,742 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 14:47:41,582 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 14:47:41,586 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://0.0.0.0:8080].
+2025-11-18 14:47:41,597 ERROR [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://0.0.0.0:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 14:47:41,601 INFO  [ tyrus-jdk-client-1] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [9a47ba9b-7a24-4527-a7d6-b5e40f7fe160], url [ws://0.0.0.0:8080]. Reconnect in 5000ms.
+2025-11-18 14:47:41,604 ERROR [ tyrus-jdk-client-1] (AdminWebSocketServiceImpl.java:438) Can not restart websocket connection to server:Timer already cancelled.
+2025-11-18 14:47:41,620 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 15:19:40,953 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 15:19:40,970 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb/tmp/serveradmin/release
+2025-11-18 15:19:40,971 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb
+2025-11-18 15:19:40,971 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/webswing-autoscaling.config
+2025-11-18 15:19:40,972 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/./admin/webswing-admin.properties
+2025-11-18 15:19:41,015 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 15:19:41,040 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 15:19:41,055 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 15:19:41,113 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 15:19:41,156 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 15:19:41,168 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://0.0.0.0:8080].
+2025-11-18 15:19:43,349 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://0.0.0.0:8080]!
+2025-11-18 15:19:44,993 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 15:19:54,246 ERROR [ tyrus-jdk-client-2] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://0.0.0.0:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 15:19:54,258 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:180) Removing application /treelibre
+2025-11-18 15:19:54,265 INFO  [ tyrus-jdk-client-2] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [c377212a-d8f3-465c-9c16-d1516a948ea2], url [ws://0.0.0.0:8080]. Reconnect in 5000ms.
+2025-11-18 15:19:54,280 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 15:19:54,283 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://0.0.0.0:8080].
+2025-11-18 15:19:54,292 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.
+2025-11-18 15:21:26,245 INFO  [main] (AdminServlet.java:70) Initializing Webswing Admin Server...
+2025-11-18 15:21:26,262 INFO  [main] (AdminInitializer.java:22) Using Temp folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb/tmp/serveradmin/release
+2025-11-18 15:21:26,263 INFO  [main] (AdminInitializer.java:26) Using Root folder: /home/hexaredecimal/NetBeansProjects/TreeLibreWeb
+2025-11-18 15:21:26,264 INFO  [main] (AdminInitializer.java:37) Using Auto-scaling config file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/webswing-autoscaling.config
+2025-11-18 15:21:26,264 INFO  [main] (AdminInitializer.java:47) Using Properties file: file:/home/hexaredecimal/NetBeansProjects/TreeLibreWeb/./admin/webswing-admin.properties
+2025-11-18 15:21:26,314 INFO  [Websocket URL Reloader] (WebSocketUrlLoaderServiceImpl.java:136) Websocket URLs reloaded.
+2025-11-18 15:21:26,339 WARN  [main] (AdminGlobalUrlHandler.java:73) Failed to load customize dir [customize/]
+2025-11-18 15:21:26,354 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingConfigurationServiceImpl
+2025-11-18 15:21:26,420 INFO  [main] (StartupServiceImpl.java:24) Starting service AutoScalingServiceImpl
+2025-11-18 15:21:26,472 INFO  [main] (StartupServiceImpl.java:24) Starting service AdminWebSocketServiceImpl
+2025-11-18 15:21:26,490 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:137) Starting websocket connection to server [ws://localhost:8080].
+2025-11-18 15:21:28,131 INFO  [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:73) Websocket opened to server [ws://localhost:8080]!
+2025-11-18 15:21:30,002 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:161) Installing application /treelibre
+2025-11-18 15:23:27,898 ERROR [ tyrus-jdk-client-1] (AdminWebSocketConnectionImpl.java:122) Websocket closed to server [ws://localhost:8080], close code [1006], reason [Closed abnormally.]!
+2025-11-18 15:23:27,909 INFO  [ tyrus-jdk-client-1] (AdminWebSocketServiceImpl.java:422) Websocket closed to server id [8c41d4f9-e2a9-4d49-9832-eedbe9da2757], url [ws://localhost:8080]. Reconnect in 5000ms.
+2025-11-18 15:23:27,917 INFO  [webswing-server-shutdown-hook] (AdminWebSocketServiceImpl.java:465) Stopping service. Closing websocket connections.
+2025-11-18 15:23:27,941 INFO  [webswing-server-shutdown-hook] (AdminWebSocketConnectionImpl.java:147) Disconnecting websocket to server [ws://localhost:8080].
+2025-11-18 15:23:27,958 INFO  [webswing-server-shutdown-hook] (AdminServlet.java:160) Webswing Admin Server Stopped.

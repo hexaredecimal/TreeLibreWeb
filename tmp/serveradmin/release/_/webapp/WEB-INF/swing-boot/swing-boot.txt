@@ -1,0 +1,14 @@
+modpatch-java-desktop-25.2.1.jar
+webswing-api-25.2.1.jar
+webswing-app-launcher-25.2.1.jar
+webswing-app-toolkit-25.2.1.jar
+webswing-app-toolkit-fx-25.2.1.jar
+webswing-app-toolkit-fx-java11-25.2.1.jar
+webswing-app-toolkit-fx-java17-25.2.1.jar
+webswing-app-toolkit-fx-java21-25.2.1.jar
+webswing-app-toolkit-fx-java8-25.2.1.jar
+webswing-app-toolkit-java11-25.2.1.jar
+webswing-app-toolkit-java17-25.2.1.jar
+webswing-app-toolkit-java21-25.2.1.jar
+webswing-app-toolkit-java8-25.2.1.jar
+webswing-core-25.2.1.jar
