@@ -1,18 +1,27 @@
 FROM archlinux:latest
 
-RUN cd / && pacman -Syu --noconfirm \
+RUN cd / && pacman -Syu --noconfirm \   
     && pacman -S --noconfirm \
-        python \
-        git \
-        jdk21-openjdk \
-        libxext \
-        libxi \
-        libxtst \
-        libxrender \
-        pango \
-        gnupg \
-        socat
+     python \
+     git \
+     jdk21-openjdk \
+     libxext \
+     libxi \
+     libxtst \
+     libxrender \
+     pango \
+     fontconfig \
+     ttf-dejavu \
+     gnupg \
+     socat \
+     freetype2 \
+     ttf-dejavu \
+     libx11 \
+     libxft \
+     xorgproto \
+     && pacman -Scc --noconfirm
 
+RUN fc-cache -f -v
 
 RUN cd / && git clone https://github.com/hexaredecimal/TreeLibreWeb.git \
   && cd TreeLibreWeb
