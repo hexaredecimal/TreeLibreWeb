@@ -12,4 +12,4 @@ OUT_LOG_ARCHIVE_DIR=$HOME/logs/outarchive
 
 
 
-java $JAVA_OPTS -jar ./server/webswing-jetty-launcher.jar -serveradmin -aw ./admin/webswing-admin-server.war $OPTS
+xvfb-run -a java $JAVA_OPTS -jar ./server/webswing-jetty-launcher.jar -serveradmin -aw ./admin/webswing-admin-server.war $OPTS
