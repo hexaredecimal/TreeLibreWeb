@@ -20,7 +20,7 @@ RUN cd / && pacman -Syu --noconfirm \
      libxft \
      xorg \
      xorgproto \
-     xorg-server-xvfb
+     xorg-server-xvfb \
      && pacman -Scc --noconfirm
 
 RUN fc-cache -f -v
