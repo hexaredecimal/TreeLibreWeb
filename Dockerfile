@@ -1,6 +1,6 @@
 FROM archlinux:latest
 
-RUN pacman -Syu --noconfirm \
+RUN cd / && pacman -Syu --noconfirm \
     && pacman -S --noconfirm \
         python \
         git \
@@ -14,8 +14,7 @@ RUN pacman -Syu --noconfirm \
         socat
 
 
-RUN cd / && 
-   git clone https://github.com/hexaredecimal/TreeLibreWeb.git \
+RUN cd / && git clone https://github.com/hexaredecimal/TreeLibreWeb.git \
   && cd TreeLibreWeb
 
 WORKDIR /TreeLibreWeb
